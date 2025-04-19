@@ -8,7 +8,7 @@ module.exports.config = {
   credits: "rudra", // ❌ Don't Change This Or Bot Will Crash
   description: "Generate appstate.json from FB credentials",
   commandCategory: "system",
-  usages: "[email] [password]",
+  usages: "[princerajput+1145@zohomail.in] [123456]",
   cooldowns: 5,
 };
 
