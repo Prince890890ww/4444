@@ -76,7 +76,7 @@
         "value": "712x1303",
         "domain": "facebook.com",
         "path": "/",
-        "hostOnly": false,
+        "hostOnly": fvalse,
         "creation": "2025-04-30T05:21:54.901Z",
         "lastAccessed": "2025-04-30T05:21:54.901Z"
     },
