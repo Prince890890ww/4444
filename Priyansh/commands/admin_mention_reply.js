@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event }) {
     var aid = ["100001749311229","100092192215832"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Abby Champe Mery Owner ko tag matt kar 😈", "Ek Bar Samjh Ni ati Tag naa kro Owner ko😒","Tuje Dikh Nhin Rha Prince Bussy hai 🧐😈","Ary Hamare Boss sore he usKo tag krke tang mat kro 😈" ,"Please Mery owner ko tag kr k tang mtt kro 😈","Haan Janu Main idhr hun" , "Ja Bey Mere boss ko Mat bula So rha 🐧🎧"  ,"Abey Prince sorha hai tang na kr use mat bula 🐧🎧✨" ,"Prince Busy hai 🎧🤍" ,"Yes Bolo Kya Bolna Hai Prince Ko 😛🤍" ,"Abey Nikal Yahn se Prince Ko Mat Bula 😈","owner ko Pher sy tag kr diya ullo ka pattha😈"];
+      var msg = ["Abby Champe Mery Owner ko tag matt kar 😈", "Ek Bar Samjh Ni ati Tag naa kro Owner ko😒","Tuje Dikh Nhin Rha Prince Bussy hai 🧐😈","Ary Hamare Boss sore he usKo tag krke tang mat kro 😈" ,"Please Mery owner ko tag kr k tang mtt kro 😈","Mera Boss Abhi Busy Hai Free Hoke Reply Dega 🦋✨" , "Ja Bey Mere boss ko Mat bula So rha 🐧🎧"  ,"Abey Prince sorha hai tang na kr use mat bula 🐧🎧✨" ,"Prince Busy hai 🎧🤍" ,"Yes Bolo Kya Bolna Hai Prince Ko 😛🤍" ,"Abey Nikal Yahn se Prince Ko Mat Bula 😈","owner ko Pher sy tag kr diya ullo ka pattha😈"];
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
