@@ -13,13 +13,13 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "You",
-    "PREFIX": "+",
+    "PREFIX": "/",
     "OTHERBOT": [
         ""
     ],
     "UNSENTVIP": [
         "100001749311229",
-        "100001749311229"
+        ""
     ],
     "GOD": [
         "100001749311229",
